@@ -1,15 +1,8 @@
-import pandas as pd
-from PIL import Image
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 import numpy as np
-import os
-import matplotlib.pyplot as plt
 import cv2
-from os import listdir
-from os.path import join, isfile
-from PIL import Image
 import keras
 
 model = keras.models.load_model("model.h5")
