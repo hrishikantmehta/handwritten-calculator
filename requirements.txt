@@ -1,7 +1,6 @@
 streamlit
 streamlit_drawable_canvas
 numpy
-pandas
 opencv-python
-tensorflow
+tensorflow-cpu
 keras
